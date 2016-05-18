@@ -27,7 +27,6 @@ module.exports=function(){
                 {rev:'edo',end:'ode', val: 'ide'}, //rode -> ride
                 {rev:'eko',end:'oke', val: 'eak'}, //spoke -> speak
                 {rev:'eko',end:'oke', val: 'eak'}, //spoke -> speak
-                {rev:'e',end:'e', val: ''}, //bite -> bit
 
                 {rev:'gna', end:'ang',val: 'ing'}, //sang->sing
                 {rev:'gu',end:'ug', val: 'ig'}, //dig -> dug
@@ -52,6 +51,7 @@ module.exports=function(){
                 {rev:'tpe',end:'ept', val: 'eep'}, //slept -> sleep
                 {rev:'tl',end:'lt', val: 'el'}, //felt -> feel
                 {rev:'tu',end:'ut', val: 'ut'}, //shut -> shut
+                {rev:'ti',end:'it', val: 'ite'}, //bit -> bite
 
                 {rev:'we',end:'ew', val: 'y', ex:['br','gr','dr','kn','bl']}, //flew -> fly
                 {rev:'we',end:'ew', val: 'aw', ex:['br','fl','gr','kn','bl']}, //drew -> draw, sew->saw
