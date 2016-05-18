@@ -1,0 +1,33 @@
+{
+  "name": "verbutils",
+  "version": "0.0.1",
+  "description": "VerbUtils is a JavaScript module for changing tenses of verbs. Currently, conversion from only past tense verbs to base forms is supported.",
+  "main": "verbutils.js",
+  "scripts": {
+    "test": "examples.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuraagvaidya/verbutils.git"
+  },
+  "keywords": [
+    "Past",
+    "tense",
+    "present",
+    "tense",
+    "tenses",
+    "verb",
+    "convert",
+    "to",
+    "base",
+    "form",
+    "language",
+    "english"
+  ],
+  "author": "Anuraag Vaidya <me@anuraagvaidya.com> (http://anuraagvaidya.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuraagvaidya/verbutils/issues"
+  },
+  "homepage": "https://github.com/anuraagvaidya/verbutils#readme"
+}
