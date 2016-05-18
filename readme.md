@@ -9,7 +9,7 @@ var verbutils = require('./verbutils')();
 //Get base form
 console.log(verbutils.toBaseForm('spoke'));
 console.log(verbutils.toBaseForm('gone'));
-
+```javascript
 ## More examples ##
 
 console.log(verbutils.toBaseForm('gone'));
@@ -38,4 +38,3 @@ console.log(verbutils.toBaseForm('fed'));
 console.log(verbutils.toBaseForm('took'));
 console.log(verbutils.toBaseForm('ran'));
 console.log(verbutils.toBaseForm('spoke'));
-console.log(verbutils.toBaseForm('shone'));
