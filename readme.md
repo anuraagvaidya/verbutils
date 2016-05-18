@@ -3,14 +3,20 @@ VerbUtils is a JavaScript module for changing tenses of verbs. Currently, conver
 
 
 ## Usage ##
+```javascript
 //import module
 var verbutils = require('./verbutils')();
 
+
 //Get base form
-console.log(verbutils.toBaseForm('spoke'));
-console.log(verbutils.toBaseForm('gone'));
+console.log(verbutils.toBaseForm('spoke')); //outputs speak
+console.log(verbutils.toBaseForm('gone')); //outputs go
+```
+
 ## More examples ##
 
+**Code**
+```javascript
 console.log(verbutils.toBaseForm('gone'));
 console.log(verbutils.toBaseForm('caught'));
 console.log(verbutils.toBaseForm('blew'));
@@ -37,3 +43,36 @@ console.log(verbutils.toBaseForm('fed'));
 console.log(verbutils.toBaseForm('took'));
 console.log(verbutils.toBaseForm('ran'));
 console.log(verbutils.toBaseForm('spoke'));
+console.log(verbutils.toBaseForm('shone'));
+```
+
+**Output**
+```
+go
+catch
+blow
+sit
+heard
+slay
+give
+fight
+anger
+annoy
+draw
+lock
+write
+drive
+bit
+sleep
+flee
+murder
+feel
+sing
+sweep
+ride
+feed
+take
+run
+speak
+shine
+```
